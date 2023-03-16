@@ -1,0 +1,542 @@
+/* /defining the overall criteria for web page/ */
+* {
+    margin: 0%;
+    background: #fbfbfb;
+
+}
+
+/* setting style for h1 headings */
+h1 {
+
+    color: rgb(7, 13, 213);
+    font-family: "Architects Daughter";
+    font-weight: 800;
+    font-variant: small-caps;
+    text-shadow: #534D4D 0px 1px;
+}
+
+/* setting style for h2 headings */
+
+h2 {
+    color: rgb(7, 13, 213);
+    font-family: "Architects Daughter";
+    font-variant: small-caps;
+
+}
+
+
+/* Defining style for paragraph  */
+
+p {
+    font-size: 1.2rem;
+    color: #000;
+}
+
+/* setting up the navigation and defifnig css properties for */
+.navi {
+    position: absolute;
+    width: 96%;
+    padding: 2%;
+    background: #e3cd07;
+    ;
+}
+
+/* setting color for navigation bacground */
+.navi ul {
+    background: #534D4D;
+
+}
+
+/* : This selects all list items within an unordered list within an element 
+with the class "navi". It sets a yellow background color, uses the "Antonio" font,
+ removes the default list style, floats the list items to the left, adds padding, and sets the font size to 2vw. */
+.navi ul li {
+
+    background: #e3cd07;
+    font-family: "Antonio";
+    list-style: none;
+    float: left;
+    padding: 3%;
+    font-size: 2vw;
+}
+
+
+.navi ul li a {
+    text-decoration: none;
+    background: #e3cd07;
+    color: rgb(7, 13, 213);
+}
+/* This selects all anchor tags within list items within an unordered list within an element with the class
+ "navi" when the mouse hovers over them. It changes the text color to a light yellow, 
+adds a transition effect that lasts for 2 seconds, increases the font weight,
+ and increases the font size to 2.5vw */
+.navi ul li a:hover {
+    color: rgb(255, 247, 186);
+    transition: 2s;
+    font-weight: bolder;
+    font-size: 2.5vw;
+
+}
+
+.wel {
+    background: #ffffff;
+
+}
+
+.menu {
+    margin-left: 60%;
+}
+
+.navi img {
+
+    position: absolute;
+    width: 6%;
+    height: 70%;
+    background: #e3cd07;
+}
+/*  This selects all section elements. It sets the width to 100%, sets a margin-top of 50%, 
+sets the position to absolute, uses flexbox to create a responsive layout,
+ and justifies the content to space between. */
+section {
+
+    width: 100%;
+    margin-top: 50%;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.page {
+    width: 100%;
+    position: absolute;
+    margin-top: 45%;
+    text-align: center;
+    background-color: #000;
+}
+
+.div1 {
+    margin: 1%;
+    width: 21%;
+    height: 330px;
+    /* border: 2px solid black; */
+    border-radius: 10px 10px;
+
+}
+
+.div1 img {
+    height: 100%;
+    width: 100%;
+    border-radius: 14px 14px 0 0;
+    transition: 0.5s all ease-in-out;
+}
+
+.div1:hover {
+    border-radius: 14px 14px 0 0;
+
+}
+
+.div1:hover img {
+    transform: scale(1.05);
+}
+
+.div2 {
+    margin: 1%;
+    width: 20%;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 10px 10px;
+
+}
+/* The .flex class defines a flex container with
+ flex-wrap set to wrap, justify-content set to space-between, 
+ and a left and right padding of 1%. */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 1%;
+}
+/* The footer element is styled with a background color of #ff0000, a width of 100%, 
+a height of 20%, and is positioned absolutely 74% from the top of the page. */
+footer {
+    background: #ff0000;
+
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    margin-top: 74%;
+}
+
+.div1 {
+
+    justify-content: center;
+
+}
+
+.div2 {
+
+    justify-content: center;
+
+
+}
+
+.div3 {
+    justify-content: center;
+}
+
+.about {
+    justify-content: space-between;
+
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-top: 10%;
+    width: 100%;
+}
+
+.box1 img {
+    border-radius: 5px 5px;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+}
+
+.box1 {
+    justify-content: center;
+    width: 50%;
+    height: 300px;
+
+}
+
+.intro {
+    font-size: medium;
+}
+
+.div1 img {
+    width: 115%;
+    height: 75%;
+    background-color: #f4f6fa;
+    box-shadow: 10px 2px 8px rgba(5, 5, 5, 0.12);
+    border-radius: 14px;
+    padding-bottom: 5px;
+
+}
+/* The .div2 class defines the style for a container with a width of 20%, 
+height of 300px, a border of 2px solid black, a border-radius of 10px on 
+the top corners, and a margin of 1%. */
+.div2 img {
+    border-radius: 10px 10px;
+    width: 110%;
+    height: 100%;
+
+}
+
+.div3 {
+    width: 90%;
+    box-shadow: 12px 12px 15px 12px rgb(189, 189, 188);
+    border-radius: 15px 15px;
+    margin: 3%;
+
+}
+
+.div3 p {
+    font-size: 1.2rem;
+}
+
+code {
+    margin-left: 40%;
+    line-height: 100px;
+    background: #ff0000;
+    font-size: 1.2rem;
+}
+
+
+
+iframe {
+    display: none;
+}
+/* social media element with a red background and black text,
+ a font size of 1.6rem and a height of 20px. It also positions the element with a left margin of 50px. */
+.socialmedia {
+    background: #ff0000;
+    font-size: 1.6rem;
+    color: #000;
+    height: 20px;
+    margin-left: 50px;
+
+
+}
+
+.socialmedia i {
+    background: #ff0000;
+
+}
+
+.updates {
+    margin-top: -1%;
+    background: #ff0000;
+    position: absolute;
+    margin-left: 85%;
+}
+
+.btnn {
+    margin-top: 4px;
+    width: 65%;
+    height: 25px;
+    border: none;
+    border-radius: 10px 10px;
+    margin-left: 12%;
+}
+
+.btnab {
+    width: 20%;
+    height: 25px;
+    border-radius: 10px 10px;
+
+    border: none;
+    background: rgba(220, 198, 198, 0.836);
+    cursor: pointer;
+}
+
+.socialmedia :hover {
+    color: bisque;
+    cursor: pointer;
+}
+
+.aa img {
+    height: 100%;
+}
+
+.btnab a {
+    color: #000;
+    text-decoration: none;
+    background: rgba(220, 198, 198, 0.836);
+
+}
+
+.bgform {
+    background: linear-gradient(rgba(101, 103, 209, 0.834), rgb(232, 137, 246));
+
+}
+
+.heading1 {
+    text-align: center;
+}
+
+.tab {
+    width: 100%;
+    font-size: 105%;
+    border-radius: 15px 15px;
+
+
+}
+
+.td {
+    border-radius: 15px 15px;
+    text-align: center;
+
+
+}
+
+.head1 {
+    border-radius: 15px 15px;
+
+    text-align: left;
+}
+
+.txtt {
+    border-radius: 15px 15px;
+
+    margin-left: 15%;
+}
+
+.footergal {
+    margin-top: 98%;
+}
+
+input[type="text"],
+[type="email"] {
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+.in {
+    /* margin-top: -24%; */
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+    /* width: 80%; */
+    height: 6px;
+
+}
+
+.in:focus {
+    border-color: #6D8CFF;
+    outline: none;
+}
+
+.titles ul li {
+    text-align: center;
+    list-style: none;
+    font-size: small;
+}
+
+.tit {
+    text-align: center;
+    list-style: none;
+    font-size: small;
+}
+
+.list1 {
+    list-style: none;
+    font-size: small;
+}
+
+.txt4 {
+    font-size: small;
+}
+/* This is a media query that targets screens with a maximum width of 460 pixels.
+ Any CSS rules defined inside this media query will only apply to screens that meet this condition, allowing for responsive design. For example,
+ you could use this media query to change the layout or styling of your website to better fit on a smaller mobile screen. */
+@media screen and (max-width: 460px) {
+
+    /* This is a media query that applies styles to the page when the screen size is smaller than 460px. */
+    * {
+        background: rgb(236, 236, 219);
+
+    }
+
+    .imgp {
+        display: none;
+    }
+
+    .navi {
+        width: 98%;
+        height: 12%;
+    }
+
+    .navi .menu {
+        margin-left: 5%;
+
+    }
+
+    li a {
+        font-size: 1rem;
+        line-height: 4%;
+    }
+
+    p {
+
+        font-weight: 200;
+        font-size: 0.8rem;
+    }
+
+    .intro {
+        font-size: 0.8rem;
+    }
+
+    #his {
+        display: none;
+    }
+
+    #his1 {
+        display: none;
+
+    }
+
+    section {
+        margin-top: 900px;
+    }
+
+    .box1 {
+        width: 90%;
+
+    }
+
+    .box9 {
+        width: 100%;
+
+        position: absolute;
+        margin-top: 465px;
+        margin-left: 2%;
+    }
+
+    .box9 img {
+        height: 100%;
+        width: 90%;
+    }
+
+    .page {
+        margin-top: 835px;
+        width: 100%;
+    }
+
+    section {
+        justify-content: center;
+
+    }
+
+    .div1 img {
+        width: 90%;
+    }
+
+    .div1 {
+        width: 90%;
+        justify-content: center;
+    }
+
+    footer {
+        width: 100%;
+        margin-top: 2200px;
+    }
+
+    .footergal {
+        margin-top: 960%;
+    }
+
+    code {
+        font-size: 1rem;
+        margin-left: 20%;
+    }
+
+    .socialmedia {
+        margin-left: 40%;
+        margin-top: -10px;
+    }
+
+    .updates {
+        display: none;
+    }
+
+    .tab {
+        box-shadow: 12px 12px 15px 12px rgb(189, 189, 188);
+        width: 80%;
+
+    }
+
+    .div3 {
+        border: 2px solid rgba(131, 124, 104, 0.533);
+        width: 110%;
+        margin-left: 2%;
+        height: 100%;
+    }
+
+    .bgform {
+
+        background: none;
+
+    }
+
+    iframe {
+        display: block;
+    }
+
+    .wel {
+        font-size: 1rem;
+
+    }
+
+}
